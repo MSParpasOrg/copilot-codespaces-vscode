@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 //Path to our data model
-const Comment = require('./comment');
+const Comment = require('./comments');
 
 //Create a new comment
 app.get('/comment/create', (req, res) => {
